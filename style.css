@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(188, 113, 128, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 5rem;
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+  position: relative;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+a {
+  background-color: rgba(144, 142, 142, 0.211);
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.highlight {
+  background-color: #fbffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+}
